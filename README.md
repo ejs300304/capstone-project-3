@@ -192,32 +192,6 @@ Based on the model development and evaluation:
 - Develop separate models for different vehicle price segments.
 - Deploy the trained model through a web application for interactive price estimation.
 
-## Technologies Used
-
-- **Programming:** Python
-- **Data Manipulation:** Pandas, NumPy
-- **Visualization:** Matplotlib, Seaborn
-- **Machine Learning:** Scikit-learn
-- **Categorical Encoding:** Category Encoders
-- **Environment:** Jupyter Notebook / Google Colab
-
-## Project Structure
-
-```text
-Saudi-Used-Car-Price-Prediction/
-│
-├── data/
-│   └── Saudi_Used_Cars.csv
-│
-├── notebooks/
-│   └── Saudi_Used_Car_Price_Prediction.ipynb
-│
-├── README.md
-└── requirements.txt
-```
-
-*Adjust the folder and file names to match your actual GitHub repository.*
-
 ## Conclusion
 
 This project demonstrates how machine learning can be applied to estimate used car prices in Saudi Arabia. Among the five regression algorithms evaluated, the tuned Extra Trees Regressor achieved the strongest reported performance, with an R² score of 0.7767.
